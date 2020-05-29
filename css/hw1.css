@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+table {
+    font-family: Montserrat;
+    font-size: 110%;
+    line-height: 150%;
+    text-align: left;
+    margin: 1%;
+    width: 95%;
+    padding: .5%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ff2345;
+    color: #152428;
+    border-bottom: solid 3px #152428;
+    line-height: 205%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+th:first-child {
+    background-image: linear-gradient(to right, #ffffff, #ff2345);
+    border-radius: 4px 0 0 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+th:last-child {
+    background-image: linear-gradient(to right, #ff2345, #ffffff);
+    border-radius: 0 4px 0 0;
+}
+
+tr {
+    opacity: .8;
+    text-align: center;
+}
+
+td {
+    border: solid 1px #152428;
+    line-height: 205%;
+    padding: 1%;
+    border-radius: 2px;
+    text-shadow: #152428;
+}
+
+tr:hover td {
+    background-color: #ffffff;
+    color: #152428;
+    opacity: 1;
+}
+
+td:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+    background-color: #152428;
+}
+
+header {
+    background-color: #B2B2B2;
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+    padding: 2.5%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 10px #ff2345;
+}
+
+h1 {
+    color: #152428;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 400%;
+    font-family: "Courier";
+    background-color: #ff2345;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h2 {
+    color: #ff2345;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: rgba(255, 255, 255, .25);
+    color: #ffffff;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    color: #000000;
+    padding: 1%;
+    border-radius: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #152428;
+    color: #ff2345;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    border: solid 2px #152428;
+    margin: 0 auto;
+}
+
+.left {
+    display: inline-block;
+    text-align: center;
+    background-color: #ff2345;
+    width: 25%;
+    margin: 0 auto;
+    padding: .5%;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    width: 70%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-left: -4px;
+}
+
+main {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+}
+
+img:hover {
+    opacity: .75;
+}
